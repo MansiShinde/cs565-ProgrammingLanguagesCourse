@@ -1,0 +1,735 @@
+DIGEST 33332d5da04a3a9b2295d2f964a4d18f
+Fhw2
+R15:29 Coq.Arith.Arith <> <> lib
+R47:59 Coq.Bool.Bool <> <> lib
+R77:94 Coq.Strings.String <> <> lib
+R112:114 Coq.micromega.Lia <> <> lib
+R132:148 Coq.Strings.Ascii <> <> lib
+R166:183 Coq.Strings.String <> <> lib
+R257:260 Coq.Init.Datatypes <> cons constr
+not 244:244 <> :::x_'::'_x
+R320:322 Coq.Init.Datatypes <> nil constr
+not 312:312 <> :::'[]'
+R346:349 Coq.Init.Datatypes <> cons constr
+R353:355 Coq.Init.Datatypes <> nil constr
+not 334:334 <> :::'['_x_']'
+R389:392 Coq.Init.Datatypes <> cons constr
+R400:403 Coq.Init.Datatypes <> cons constr
+R407:409 Coq.Init.Datatypes <> nil constr
+not 368:368 <> :::'['_x_';'_'..'_';'_x_']'
+R438:443 Coq.Strings.String <> length def
+not 426:426 <> :::'|'_x_'|'
+R485:487 Coq.Init.Datatypes <> app def
+not 472:472 <> :::x_'++'_x
+mod 539:544 <> Review
+def 612:614 Review map
+binder 617:617 <> X:1
+binder 619:619 <> Y:2
+R635:636 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R634:634 hw2 <> X:1 var
+R637:637 hw2 <> Y:2 var
+binder 630:630 <> f:3
+R645:648 Coq.Init.Datatypes <> list ind
+R650:650 hw2 <> X:1 var
+binder 641:641 <> l:4
+R655:658 Coq.Init.Datatypes <> list ind
+R660:660 hw2 <> Y:2 var
+R673:673 hw2 <> l:4 var
+R684:685 hw2 <> :::'[]' not
+R694:695 hw2 <> :::'[]' not
+R702:705 hw2 <> :::x_'::'_x not
+R711:711 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R715:720 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R728:728 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R712:712 hw2 <> f:3 var
+R721:723 hw2 <> map:5 def
+R725:725 hw2 <> f:3 var
+def 747:750 Review fold
+binder 753:753 <> X:7
+binder 755:755 <> Y:8
+R770:771 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R769:769 hw2 <> X:7 var
+R773:774 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R772:772 hw2 <> Y:8 var
+R775:775 hw2 <> Y:8 var
+binder 765:765 <> f:9
+R783:786 Coq.Init.Datatypes <> list ind
+R788:788 hw2 <> X:7 var
+binder 779:779 <> l:10
+R796:796 hw2 <> Y:8 var
+binder 792:792 <> b:11
+R826:826 hw2 <> Y:8 var
+R839:839 hw2 <> l:10 var
+R850:852 Coq.Init.Datatypes <> nil constr
+R857:857 hw2 <> b:11 var
+R864:867 hw2 <> :::x_'::'_x not
+R873:873 hw2 <> f:9 var
+R878:881 hw2 <> fold:12 def
+R887:887 hw2 <> b:11 var
+R883:883 hw2 <> f:9 var
+def 910:917 Review fold_map
+binder 920:920 <> X:14
+binder 922:922 <> Y:15
+R936:939 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R935:935 hw2 <> X:14 var
+R940:940 hw2 <> Y:15 var
+binder 932:932 <> f:16
+R947:950 Coq.Init.Datatypes <> list ind
+R952:952 hw2 <> X:14 var
+binder 944:944 <> l:17
+R957:960 Coq.Init.Datatypes <> list ind
+R962:962 hw2 <> Y:15 var
+R969:972 hw2 Review fold def
+R1011:1012 hw2 <> :::'[]' not
+R1009:1009 hw2 <> l:17 var
+binder 979:979 <> x:18
+binder 988:990 <> acc:19
+R995:995 hw2 <> :::x_'::'_x not
+R999:1003 hw2 <> :::x_'::'_x not
+R996:996 hw2 <> f:16 var
+R998:998 hw2 <> x:18 var
+R1004:1006 hw2 <> acc:19 var
+prf 1040:1055 Review fold_map_correct
+binder 1065:1065 <> X:20
+binder 1067:1067 <> Y:21
+R1075:1076 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1074:1074 hw2 <> X:20 var
+R1077:1077 hw2 <> Y:21 var
+binder 1070:1070 <> f:22
+R1085:1088 Coq.Init.Datatypes <> list ind
+R1090:1090 hw2 <> X:20 var
+binder 1081:1081 <> l:23
+R1110:1112 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1098:1105 hw2 Review fold_map def
+R1109:1109 hw2 <> l:23 var
+R1107:1107 hw2 <> f:22 var
+R1113:1115 hw2 Review map def
+R1119:1119 hw2 <> l:23 var
+R1117:1117 hw2 <> f:22 var
+prf 1312:1320 Review plus_n_Sm
+R1336:1338 Coq.Init.Datatypes <> nat ind
+binder 1330:1330 <> n:24
+binder 1332:1332 <> m:25
+R1350:1352 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1341:1341 Coq.Init.Datatypes <> S constr
+R1345:1347 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1344:1344 hw2 <> n:24 var
+R1348:1348 hw2 <> m:25 var
+R1354:1356 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1353:1353 hw2 <> n:24 var
+R1357:1357 Coq.Init.Datatypes <> S constr
+R1359:1359 hw2 <> m:25 var
+prf 1487:1504 Review plus_n_n_injective
+binder 1515:1515 <> n:26
+binder 1517:1517 <> m:27
+R1535:1540 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1527:1529 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1523:1525 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1522:1522 hw2 <> n:26 var
+R1526:1526 hw2 <> n:26 var
+R1531:1533 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1530:1530 hw2 <> m:27 var
+R1534:1534 hw2 <> m:27 var
+R1542:1544 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1541:1541 hw2 <> n:26 var
+R1545:1545 hw2 <> m:27 var
+R1812:1820 hw2 Review plus_n_Sm thm
+R1812:1820 hw2 Review plus_n_Sm thm
+R1812:1820 hw2 Review plus_n_Sm thm
+R1840:1848 hw2 Review plus_n_Sm thm
+R1840:1848 hw2 Review plus_n_Sm thm
+R1840:1848 hw2 Review plus_n_Sm thm
+def 1935:1941 Review combine
+binder 1944:1944 <> X:28
+binder 1946:1946 <> Y:29
+R1962:1965 Coq.Init.Datatypes <> list ind
+R1967:1967 hw2 <> X:28 var
+binder 1957:1958 <> lx:30
+R1976:1979 Coq.Init.Datatypes <> list ind
+R1981:1981 hw2 <> Y:29 var
+binder 1971:1972 <> ly:31
+R1997:2000 Coq.Init.Datatypes <> list ind
+R2004:2004 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2003:2003 hw2 <> X:28 var
+R2005:2005 hw2 <> Y:29 var
+R2023:2024 hw2 <> ly:31 var
+R2019:2020 hw2 <> lx:30 var
+R2035:2036 hw2 <> :::'[]' not
+R2044:2045 hw2 <> :::'[]' not
+R2054:2055 hw2 <> :::'[]' not
+R2060:2061 hw2 <> :::'[]' not
+R2068:2071 hw2 <> :::x_'::'_x not
+R2077:2080 hw2 <> :::x_'::'_x not
+R2093:2097 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2111:2111 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2087:2087 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2089:2090 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2092:2092 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2098:2104 hw2 <> combine:32 def
+def 2130:2134 Review split
+binder 2137:2137 <> X:35
+binder 2139:2139 <> Y:36
+R2154:2157 Coq.Init.Datatypes <> list ind
+R2161:2161 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2160:2160 hw2 <> X:35 var
+R2162:2162 hw2 <> Y:36 var
+binder 2150:2150 <> l:37
+R2183:2183 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2190:2194 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2201:2201 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2184:2187 Coq.Init.Datatypes <> list ind
+R2189:2189 hw2 <> X:35 var
+R2195:2198 Coq.Init.Datatypes <> list ind
+R2200:2200 hw2 <> Y:36 var
+R2214:2214 hw2 <> l:37 var
+R2225:2226 hw2 <> :::'[]' not
+R2231:2231 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2234:2235 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2238:2238 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2232:2233 hw2 <> :::'[]' not
+R2236:2237 hw2 <> :::'[]' not
+R2250:2253 hw2 <> :::x_'::'_x not
+R2244:2244 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2246:2247 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2249:2249 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2271:2275 hw2 <> split:38 def
+R2292:2292 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2295:2296 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2299:2299 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2304:2304 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2312:2313 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2321:2321 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2306:2309 hw2 <> :::x_'::'_x not
+R2315:2318 hw2 <> :::x_'::'_x not
+prf 2445:2457 Review combine_split
+binder 2468:2468 <> X:40
+binder 2470:2470 <> Y:41
+R2477:2480 Coq.Init.Datatypes <> list ind
+R2484:2486 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2483:2483 hw2 <> X:40 var
+R2487:2487 hw2 <> Y:41 var
+binder 2473:2473 <> l:42
+binder 2491:2492 <> l1:43
+binder 2494:2495 <> l2:44
+R2518:2523 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2507:2509 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2500:2504 hw2 Review split def
+R2506:2506 hw2 <> l:42 var
+R2510:2510 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2513:2514 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2517:2517 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2511:2512 hw2 <> l1:43 var
+R2515:2516 hw2 <> l2:44 var
+R2537:2539 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2524:2530 hw2 Review combine def
+R2535:2536 hw2 <> l2:44 var
+R2532:2533 hw2 <> l1:43 var
+R2540:2540 hw2 <> l:42 var
+R2778:2782 hw2 Review split def
+R2778:2782 hw2 Review split def
+R2925:2927 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2913:2919 hw2 Review combine def
+R2925:2927 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2913:2919 hw2 Review combine def
+R3020:3025 hw2 Review <> mod
+mod 3036:3053 <> ArithWithVariables
+abbrev 3068:3070 ArithWithVariables var
+R3075:3080 Coq.Strings.String <> string ind
+def 3096:3101 ArithWithVariables var_eq
+R3118:3120 hw2 ArithWithVariables var abbrev
+binder 3112:3112 <> x:45
+binder 3114:3114 <> y:46
+R3123:3123 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3129:3133 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3140:3140 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3125:3127 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3124:3124 hw2 <> x:45 var
+R3128:3128 hw2 <> y:46 var
+R3135:3138 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3134:3134 hw2 <> x:45 var
+R3139:3139 hw2 <> y:46 var
+R3145:3154 Coq.Strings.String <> string_dec def
+R3175:3180 hw2 ArithWithVariables var_eq def
+not 3166:3166 ArithWithVariables :::x_'==v'_x
+ind 3316:3318 ArithWithVariables exp
+constr 3335:3339 ArithWithVariables Const
+constr 3355:3357 ArithWithVariables Var
+constr 3374:3377 ArithWithVariables Plus
+R3346:3348 Coq.Init.Datatypes <> nat ind
+binder 3342:3342 <> n:49
+R3364:3366 hw2 ArithWithVariables var abbrev
+binder 3360:3360 <> x:50
+R3388:3390 hw2 <> exp:47 ind
+binder 3380:3381 <> e1:51
+binder 3383:3384 <> e2:52
+ind 3454:3460 ArithWithVariables binding
+constr 3489:3492 ArithWithVariables pair
+binder 3463:3463 <> X:53
+R3499:3501 hw2 ArithWithVariables var abbrev
+binder 3495:3495 <> x:56
+R3509:3509 hw2 <> X:53 var
+binder 3505:3505 <> v:57
+ind 3524:3534 ArithWithVariables lookupTable
+constr 3561:3565 ArithWithVariables empty
+constr 3571:3574 ArithWithVariables cons
+binder 3537:3537 <> X:58
+R3581:3587 hw2 ArithWithVariables binding ind
+R3589:3589 hw2 <> X:58 var
+binder 3577:3577 <> x:61
+R3598:3608 hw2 <> lookupTable:59 ind
+R3610:3610 hw2 <> X:58 var
+binder 3593:3593 <> l:62
+def 3627:3632 ArithWithVariables lookup
+binder 3636:3636 <> X:63
+R3653:3663 hw2 ArithWithVariables lookupTable ind
+R3665:3665 hw2 <> X:63 var
+binder 3648:3648 <> l:64
+R3674:3676 hw2 ArithWithVariables var abbrev
+binder 3670:3670 <> x:65
+R3693:3693 hw2 <> l:64 var
+R3706:3710 hw2 ArithWithVariables empty constr
+R3718:3721 Coq.Init.Datatypes <> None constr
+R3729:3732 hw2 ArithWithVariables cons constr
+R3737:3740 hw2 ArithWithVariables pair constr
+R3760:3764 hw2 ArithWithVariables :::x_'==v'_x not
+R3759:3759 hw2 <> x:65 var
+R3839:3844 hw2 <> lookup:66 def
+R3849:3849 hw2 <> x:65 var
+R3800:3803 Coq.Init.Datatypes <> Some constr
+def 3872:3877 ArithWithVariables interp
+R3884:3886 hw2 ArithWithVariables exp ind
+binder 3880:3880 <> e:68
+R3894:3904 hw2 ArithWithVariables lookupTable ind
+R3906:3908 Coq.Init.Datatypes <> nat ind
+binder 3890:3890 <> l:69
+R3924:3924 hw2 <> e:68 var
+R3937:3941 hw2 ArithWithVariables Const constr
+R3956:3958 hw2 ArithWithVariables Var constr
+R3980:3985 hw2 ArithWithVariables lookup def
+R3987:3987 hw2 <> l:69 var
+R4007:4010 Coq.Init.Datatypes <> None constr
+R4028:4031 Coq.Init.Datatypes <> Some constr
+R4058:4061 hw2 ArithWithVariables Plus constr
+R4083:4085 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4072:4077 hw2 <> interp:70 def
+R4082:4082 hw2 <> l:69 var
+R4086:4091 hw2 <> interp:70 def
+R4096:4096 hw2 <> l:69 var
+def 4135:4138 ArithWithVariables swap
+R4145:4147 hw2 ArithWithVariables exp ind
+binder 4141:4141 <> e:72
+R4152:4154 hw2 ArithWithVariables exp ind
+R4169:4169 hw2 <> e:72 var
+R4182:4186 hw2 ArithWithVariables Const constr
+R4193:4193 hw2 <> e:72 var
+R4201:4203 hw2 ArithWithVariables Var constr
+R4210:4210 hw2 <> e:72 var
+R4218:4221 hw2 ArithWithVariables Plus constr
+R4232:4235 hw2 ArithWithVariables Plus constr
+R4238:4241 hw2 <> swap:73 def
+R4248:4251 hw2 <> swap:73 def
+prf 4289:4295 ArithWithVariables swap_ok
+binder 4306:4306 <> l:75
+binder 4308:4308 <> e:76
+R4328:4330 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4311:4316 hw2 ArithWithVariables interp def
+R4319:4322 hw2 ArithWithVariables swap def
+R4324:4324 hw2 <> e:76 var
+R4327:4327 hw2 <> l:75 var
+R4331:4336 hw2 ArithWithVariables interp def
+R4338:4338 hw2 <> e:76 var
+R4340:4340 hw2 <> l:75 var
+def 4565:4569 ArithWithVariables alpha
+R4576:4578 hw2 ArithWithVariables exp ind
+binder 4572:4572 <> e:77
+R4586:4588 hw2 ArithWithVariables var abbrev
+binder 4582:4582 <> x:78
+R4596:4598 hw2 ArithWithVariables var abbrev
+binder 4592:4592 <> y:79
+R4603:4605 hw2 ArithWithVariables exp ind
+R4620:4620 hw2 <> e:77 var
+R4633:4637 hw2 ArithWithVariables Const constr
+R4644:4644 hw2 <> e:77 var
+R4652:4654 hw2 ArithWithVariables Var constr
+R4667:4671 hw2 ArithWithVariables :::x_'==v'_x not
+R4672:4672 hw2 <> x:78 var
+R4694:4696 hw2 ArithWithVariables Var constr
+R4681:4683 hw2 ArithWithVariables Var constr
+R4685:4685 hw2 <> y:79 var
+R4707:4710 hw2 ArithWithVariables Plus constr
+R4721:4724 hw2 ArithWithVariables Plus constr
+R4727:4731 hw2 <> alpha:80 def
+R4738:4738 hw2 <> y:79 var
+R4736:4736 hw2 <> x:78 var
+R4742:4746 hw2 <> alpha:80 def
+R4753:4753 hw2 <> y:79 var
+R4751:4751 hw2 <> x:78 var
+prf 4794:4801 ArithWithVariables alpha_ok
+binder 4812:4812 <> x:82
+binder 4814:4814 <> y:83
+binder 4816:4816 <> l:84
+binder 4818:4818 <> e:85
+R4844:4877 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4831:4833 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4821:4826 hw2 ArithWithVariables lookup def
+R4830:4830 hw2 <> x:82 var
+R4828:4828 hw2 <> l:84 var
+R4834:4839 hw2 ArithWithVariables lookup def
+R4843:4843 hw2 <> y:83 var
+R4841:4841 hw2 <> l:84 var
+R4900:4902 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4878:4883 hw2 ArithWithVariables interp def
+R4886:4890 hw2 ArithWithVariables alpha def
+R4892:4892 hw2 <> e:85 var
+R4894:4894 hw2 <> x:82 var
+R4896:4896 hw2 <> y:83 var
+R4899:4899 hw2 <> l:84 var
+R4903:4908 hw2 ArithWithVariables interp def
+R4910:4910 hw2 <> e:85 var
+R4912:4912 hw2 <> l:84 var
+R4988:4992 hw2 ArithWithVariables :::x_'==v'_x not
+R4988:4992 hw2 ArithWithVariables :::x_'==v'_x not
+R5008:5013 hw2 ArithWithVariables interp def
+R5075:5080 hw2 ArithWithVariables interp def
+R5157:5174 hw2 ArithWithVariables <> mod
+mod 5187:5199 <> BindVariables
+abbrev 5213:5215 BindVariables var
+R5220:5225 Coq.Strings.String <> string ind
+def 5239:5244 BindVariables var_eq
+R5261:5263 hw2 BindVariables var abbrev
+binder 5255:5255 <> x:86
+binder 5257:5257 <> y:87
+R5266:5266 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5272:5276 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5283:5283 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5268:5270 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5267:5267 hw2 <> x:86 var
+R5271:5271 hw2 <> y:87 var
+R5278:5281 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5277:5277 hw2 <> x:86 var
+R5282:5282 hw2 <> y:87 var
+R5288:5297 Coq.Strings.String <> string_dec def
+R5316:5321 hw2 BindVariables var_eq def
+not 5307:5307 BindVariables :::x_'==v'_x
+ind 5743:5746 BindVariables expr
+constr 5774:5778 BindVariables Const
+constr 5796:5798 BindVariables Var
+constr 5818:5821 BindVariables Plus
+constr 5854:5857 BindVariables Bind
+binder 5750:5750 <> X:88
+R5783:5786 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5782:5782 hw2 <> X:88 var
+R5787:5790 hw2 <> expr:89 ind
+R5792:5792 hw2 <> X:88 var
+R5805:5808 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5802:5804 hw2 BindVariables var abbrev
+R5809:5812 hw2 <> expr:89 ind
+R5814:5814 hw2 <> X:88 var
+R5831:5834 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5825:5828 hw2 <> expr:89 ind
+R5830:5830 hw2 <> X:88 var
+R5841:5844 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5835:5838 hw2 <> expr:89 ind
+R5840:5840 hw2 <> X:88 var
+R5845:5848 hw2 <> expr:89 ind
+R5850:5850 hw2 <> X:88 var
+R5864:5867 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5861:5863 hw2 BindVariables var abbrev
+R5874:5877 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5868:5871 hw2 <> expr:89 ind
+R5873:5873 hw2 <> X:88 var
+R5884:5887 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5878:5881 hw2 <> expr:89 ind
+R5883:5883 hw2 <> X:88 var
+R5888:5891 hw2 <> expr:89 ind
+R5893:5893 hw2 <> X:88 var
+R5907:5911 hw2 BindVariables Const constr
+R5907:5911 hw2 BindVariables Const constr
+R5928:5930 hw2 BindVariables Var constr
+R5928:5930 hw2 BindVariables Var constr
+R5947:5950 hw2 BindVariables Plus constr
+R5947:5950 hw2 BindVariables Plus constr
+R5967:5970 hw2 BindVariables Bind constr
+R5967:5970 hw2 BindVariables Bind constr
+def 6064:6069 BindVariables beq_id
+R6076:6078 hw2 BindVariables var abbrev
+binder 6072:6072 <> x:91
+R6086:6088 hw2 BindVariables var abbrev
+binder 6082:6082 <> y:92
+R6101:6105 hw2 BindVariables :::x_'==v'_x not
+R6100:6100 hw2 <> x:91 var
+R6106:6106 hw2 <> y:92 var
+R6125:6129 Coq.Init.Datatypes <> false constr
+R6115:6118 Coq.Init.Datatypes <> true constr
+prf 6205:6215 BindVariables beq_id_refl
+binder 6226:6227 <> id:93
+R6234:6236 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6230:6233 Coq.Init.Datatypes <> true constr
+R6237:6242 hw2 BindVariables beq_id def
+R6244:6245 hw2 <> id:93 var
+R6247:6248 hw2 <> id:93 var
+R6276:6281 hw2 BindVariables beq_id def
+R6296:6300 hw2 BindVariables :::x_'==v'_x not
+R6296:6300 hw2 BindVariables :::x_'==v'_x not
+prf 6485:6499 BindVariables beq_id_true_iff
+R6516:6518 hw2 BindVariables var abbrev
+binder 6510:6510 <> x:94
+binder 6512:6512 <> y:95
+R6540:6544 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R6533:6535 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6523:6528 hw2 BindVariables beq_id def
+R6530:6530 hw2 <> x:94 var
+R6532:6532 hw2 <> y:95 var
+R6536:6539 Coq.Init.Datatypes <> true constr
+R6546:6548 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6545:6545 hw2 <> x:94 var
+R6549:6549 hw2 <> y:95 var
+R6578:6583 hw2 BindVariables beq_id def
+R6597:6601 hw2 BindVariables :::x_'==v'_x not
+R6597:6601 hw2 BindVariables :::x_'==v'_x not
+prf 6870:6885 BindVariables beq_id_false_iff
+R6902:6904 hw2 BindVariables var abbrev
+binder 6896:6896 <> x:96
+binder 6898:6898 <> y:97
+R6927:6933 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R6919:6921 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6909:6914 hw2 BindVariables beq_id def
+R6916:6916 hw2 <> x:96 var
+R6918:6918 hw2 <> y:97 var
+R6922:6926 Coq.Init.Datatypes <> false constr
+R6935:6938 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6934:6934 hw2 <> x:96 var
+R6939:6939 hw2 <> y:97 var
+R6968:6973 hw2 BindVariables beq_id def
+R6987:6991 hw2 BindVariables :::x_'==v'_x not
+R6987:6991 hw2 BindVariables :::x_'==v'_x not
+prf 7161:7172 BindVariables false_beq_id
+R7189:7191 hw2 BindVariables var abbrev
+binder 7183:7183 <> x:98
+binder 7185:7185 <> y:99
+R7203:7209 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7198:7201 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7197:7197 hw2 <> x:98 var
+R7202:7202 hw2 <> y:99 var
+R7220:7222 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7210:7215 hw2 BindVariables beq_id def
+R7217:7217 hw2 <> x:98 var
+R7219:7219 hw2 <> y:99 var
+R7223:7227 Coq.Init.Datatypes <> false constr
+R7258:7263 hw2 BindVariables beq_id def
+R7277:7281 hw2 BindVariables :::x_'==v'_x not
+R7277:7281 hw2 BindVariables :::x_'==v'_x not
+def 7493:7501 BindVariables total_map
+binder 7504:7504 <> X:100
+binder 7506:7506 <> A:101
+R7520:7523 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7519:7519 hw2 <> X:100 var
+R7524:7524 hw2 <> A:101 var
+def 7539:7545 BindVariables t_empty
+binder 7549:7549 <> X:102
+binder 7552:7552 <> A:103
+R7568:7568 hw2 <> A:103 var
+binder 7564:7564 <> v:104
+R7574:7582 hw2 BindVariables total_map def
+R7584:7584 hw2 <> X:102 var
+R7586:7586 hw2 <> A:103 var
+R7604:7604 hw2 <> v:104 var
+def 7620:7627 BindVariables t_update
+binder 7631:7631 <> X:105
+binder 7633:7633 <> A:106
+R7650:7658 hw2 BindVariables total_map def
+R7660:7660 hw2 <> X:105 var
+R7662:7662 hw2 <> A:106 var
+binder 7645:7645 <> m:107
+R7672:7675 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7671:7671 hw2 <> X:105 var
+R7677:7680 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7676:7676 hw2 <> X:105 var
+R7681:7684 Coq.Init.Datatypes <> bool ind
+binder 7667:7668 <> eq:108
+R7692:7692 hw2 <> X:105 var
+binder 7688:7688 <> x:109
+R7700:7700 hw2 <> A:106 var
+binder 7696:7696 <> v:110
+binder 7712:7713 <> x':111
+R7722:7723 hw2 <> eq:108 var
+R7727:7728 hw2 <> x':111 var
+R7725:7725 hw2 <> x:109 var
+R7743:7743 hw2 <> m:107 var
+R7745:7746 hw2 <> x':111 var
+R7736:7736 hw2 <> v:110 var
+def 7850:7853 BindVariables symt
+binder 7857:7857 <> X:112
+R7871:7879 hw2 BindVariables total_map def
+R7881:7883 hw2 BindVariables var abbrev
+R7885:7885 hw2 <> X:112 var
+def 7900:7909 BindVariables empty_symt
+binder 7913:7913 <> X:113
+R7932:7932 hw2 <> X:113 var
+binder 7925:7928 <> init:114
+R7939:7945 hw2 BindVariables t_empty def
+R7947:7949 hw2 BindVariables var abbrev
+R7951:7951 hw2 <> X:113 var
+R7953:7956 hw2 <> init:114 var
+def 7971:7981 BindVariables symt_update
+binder 7985:7985 <> X:115
+R8001:8004 hw2 BindVariables symt def
+R8006:8006 hw2 <> X:115 var
+binder 7997:7997 <> m:116
+R8014:8016 hw2 BindVariables var abbrev
+binder 8010:8010 <> x:117
+R8024:8024 hw2 <> X:115 var
+binder 8020:8020 <> v:118
+R8032:8039 hw2 BindVariables t_update def
+R8052:8052 hw2 <> v:118 var
+R8050:8050 hw2 <> x:117 var
+R8043:8048 hw2 BindVariables beq_id def
+R8041:8041 hw2 <> m:116 var
+def 8067:8077 BindVariables symt_lookup
+binder 8081:8081 <> X:119
+R8097:8100 hw2 BindVariables symt def
+R8102:8102 hw2 <> X:119 var
+binder 8093:8093 <> m:120
+R8110:8112 hw2 BindVariables var abbrev
+binder 8106:8106 <> x:121
+R8117:8117 hw2 <> X:119 var
+R8124:8124 hw2 <> m:120 var
+R8126:8126 hw2 <> x:121 var
+prf 8152:8165 BindVariables symt_update_eq
+binder 8178:8178 <> X:122
+R8194:8197 hw2 BindVariables symt def
+R8199:8199 hw2 <> X:122 var
+binder 8191:8191 <> m:123
+binder 8202:8202 <> x:124
+binder 8204:8204 <> r:125
+R8228:8230 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8209:8219 hw2 BindVariables symt_update def
+R8227:8227 hw2 <> x:124 var
+R8225:8225 hw2 <> r:125 var
+R8223:8223 hw2 <> x:124 var
+R8221:8221 hw2 <> m:123 var
+R8231:8231 hw2 <> r:125 var
+R8256:8266 hw2 BindVariables symt_update def
+R8276:8283 hw2 BindVariables t_update def
+R8293:8298 hw2 BindVariables beq_id def
+R8312:8315 hw2 BindVariables :::x_'==v'_x not
+R8312:8315 hw2 BindVariables :::x_'==v'_x not
+prf 8405:8419 BindVariables symt_update_neq
+binder 8431:8431 <> X:126
+binder 8441:8441 <> v:127
+binder 8443:8444 <> x1:128
+binder 8446:8447 <> x2:129
+R8454:8457 hw2 BindVariables symt def
+R8459:8459 hw2 <> X:126 var
+binder 8450:8450 <> m:130
+R8473:8478 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8467:8470 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R8465:8466 hw2 <> x1:128 var
+R8471:8472 hw2 <> x2:129 var
+R8502:8504 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8480:8490 hw2 BindVariables symt_update def
+R8497:8497 hw2 <> v:127 var
+R8494:8495 hw2 <> x1:128 var
+R8492:8492 hw2 <> m:130 var
+R8500:8501 hw2 <> x2:129 var
+R8505:8505 hw2 <> m:130 var
+R8507:8508 hw2 <> x2:129 var
+R8533:8543 hw2 BindVariables symt_update def
+R8553:8560 hw2 BindVariables t_update def
+R8570:8575 hw2 BindVariables beq_id def
+R8590:8593 hw2 BindVariables :::x_'==v'_x not
+R8590:8593 hw2 BindVariables :::x_'==v'_x not
+def 8692:8695 BindVariables eval
+R8702:8705 hw2 BindVariables symt def
+R8707:8709 Coq.Init.Datatypes <> nat ind
+binder 8698:8698 <> s:131
+R8717:8720 hw2 BindVariables expr ind
+R8722:8724 Coq.Init.Datatypes <> nat ind
+binder 8713:8713 <> e:132
+R8749:8749 hw2 <> e:132 var
+R8760:8764 hw2 BindVariables Const constr
+R8777:8779 hw2 BindVariables Var constr
+R8786:8796 hw2 BindVariables symt_lookup def
+R8798:8798 hw2 <> s:131 var
+R8806:8809 hw2 BindVariables Bind constr
+R8829:8832 hw2 <> eval:133 def
+R8834:8834 hw2 <> s:131 var
+R8872:8875 hw2 <> eval:133 def
+R8878:8888 hw2 BindVariables symt_update def
+R8890:8890 hw2 <> s:131 var
+R8928:8931 hw2 BindVariables Plus constr
+R8949:8952 hw2 <> eval:133 def
+R8954:8954 hw2 <> s:131 var
+R8997:9000 hw2 <> eval:133 def
+R9002:9002 hw2 <> s:131 var
+R9047:9049 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+def 9158:9170 BindVariables foldConstants
+R9177:9180 hw2 BindVariables expr ind
+R9182:9184 Coq.Init.Datatypes <> nat ind
+binder 9173:9173 <> e:135
+R9189:9192 hw2 BindVariables expr ind
+R9194:9196 Coq.Init.Datatypes <> nat ind
+R9209:9209 hw2 <> e:135 var
+R9220:9224 hw2 BindVariables Const constr
+R9231:9231 hw2 <> e:135 var
+R9237:9239 hw2 BindVariables Var constr
+R9246:9246 hw2 <> e:135 var
+R9252:9255 hw2 BindVariables Bind constr
+R9268:9271 hw2 BindVariables Bind constr
+R9279:9291 hw2 <> foldConstants:136 def
+R9301:9304 hw2 BindVariables Plus constr
+R9353:9357 hw2 BindVariables Const constr
+R9364:9368 hw2 BindVariables Const constr
+R9376:9380 hw2 BindVariables Const constr
+R9386:9388 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R9412:9416 hw2 BindVariables Const constr
+R9453:9457 hw2 BindVariables Const constr
+R9495:9495 hw2 <> e:135 var
+def 9536:9539 BindVariables size
+R9546:9549 hw2 BindVariables expr ind
+R9551:9553 Coq.Init.Datatypes <> nat ind
+binder 9542:9542 <> e:140
+R9558:9560 Coq.Init.Datatypes <> nat ind
+R9573:9573 hw2 <> e:140 var
+R9584:9588 hw2 BindVariables Const constr
+R9601:9603 hw2 BindVariables Var constr
+R9616:9619 hw2 BindVariables Bind constr
+R9643:9645 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R9633:9635 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R9636:9639 hw2 <> size:141 def
+R9646:9649 hw2 <> size:141 def
+R9658:9661 hw2 BindVariables Plus constr
+R9683:9685 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R9673:9675 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R9676:9679 hw2 <> size:141 def
+R9686:9689 hw2 <> size:141 def
+prf 9726:9743 BindVariables size_foldConstants
+binder 9755:9755 <> e:143
+R9780:9783 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R9758:9761 hw2 BindVariables size def
+R9764:9776 hw2 BindVariables foldConstants def
+R9778:9778 hw2 <> e:143 var
+R9784:9787 hw2 BindVariables size def
+R9789:9789 hw2 <> e:143 var
+prf 10600:10616 BindVariables foldConstantsSafe
+R10632:10635 hw2 BindVariables expr ind
+R10637:10639 Coq.Init.Datatypes <> nat ind
+binder 10628:10628 <> e:144
+R10647:10650 hw2 BindVariables symt def
+R10652:10654 Coq.Init.Datatypes <> nat ind
+binder 10643:10643 <> s:145
+R10670:10672 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10662:10665 hw2 BindVariables eval def
+R10667:10667 hw2 <> s:145 var
+R10669:10669 hw2 <> e:144 var
+R10673:10676 hw2 BindVariables eval def
+R10678:10678 hw2 <> s:145 var
+R10681:10693 hw2 BindVariables foldConstants def
+R10695:10695 hw2 <> e:144 var
+R11106:11116 Coq.Arith.PeanoNat Nat add_0_r thm
+R11106:11116 Coq.Arith.PeanoNat Nat add_0_r thm
+R11302:11312 Coq.Arith.PeanoNat Nat add_0_r thm
+R11302:11312 Coq.Arith.PeanoNat Nat add_0_r thm
+R11498:11508 Coq.Arith.PeanoNat Nat add_0_r thm
+R11498:11508 Coq.Arith.PeanoNat Nat add_0_r thm
+R11655:11667 hw2 BindVariables <> mod

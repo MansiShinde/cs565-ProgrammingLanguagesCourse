@@ -1,0 +1,1219 @@
+DIGEST 5ebf3deeaa889826deecaa1777dcedac
+Fhw3
+R15:29 Coq.Arith.Arith <> <> lib
+R47:59 Coq.Bool.Bool <> <> lib
+R77:94 Coq.Strings.String <> <> lib
+R112:114 Coq.micromega.Lia <> <> lib
+R132:148 Coq.Strings.Ascii <> <> lib
+R166:183 Coq.Strings.String <> <> lib
+R257:260 Coq.Init.Datatypes <> cons constr
+not 244:244 <> :::x_'::'_x
+R320:322 Coq.Init.Datatypes <> nil constr
+not 312:312 <> :::'[]'
+R346:349 Coq.Init.Datatypes <> cons constr
+R353:355 Coq.Init.Datatypes <> nil constr
+not 334:334 <> :::'['_x_']'
+R389:392 Coq.Init.Datatypes <> cons constr
+R400:403 Coq.Init.Datatypes <> cons constr
+R407:409 Coq.Init.Datatypes <> nil constr
+not 368:368 <> :::'['_x_';'_'..'_';'_x_']'
+R438:443 Coq.Strings.String <> length def
+not 426:426 <> :::'|'_x_'|'
+R485:487 Coq.Init.Datatypes <> app def
+not 472:472 <> :::x_'++'_x
+mod 539:546 <> Compiler
+abbrev 647:649 Compiler var
+R654:659 Coq.Strings.String <> string ind
+def 673:678 Compiler var_eq
+R695:697 hw3 Compiler var abbrev
+binder 689:689 <> x:1
+binder 691:691 <> y:2
+R700:700 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R706:710 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R717:717 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R702:704 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R701:701 hw3 <> x:1 var
+R705:705 hw3 <> y:2 var
+R712:715 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R711:711 hw3 <> x:1 var
+R716:716 hw3 <> y:2 var
+R722:731 Coq.Strings.String <> string_dec def
+R750:755 hw3 Compiler var_eq def
+not 741:741 Compiler :::x_'==v'_x
+ind 802:805 Compiler expr
+constr 833:837 Compiler Const
+constr 855:857 Compiler Var
+constr 877:880 Compiler Plus
+constr 913:916 Compiler Bind
+binder 809:809 <> X:3
+R842:845 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R841:841 hw3 <> X:3 var
+R846:849 hw3 <> expr:4 ind
+R851:851 hw3 <> X:3 var
+R864:867 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R861:863 hw3 Compiler var abbrev
+R868:871 hw3 <> expr:4 ind
+R873:873 hw3 <> X:3 var
+R890:893 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R884:887 hw3 <> expr:4 ind
+R889:889 hw3 <> X:3 var
+R900:903 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R894:897 hw3 <> expr:4 ind
+R899:899 hw3 <> X:3 var
+R904:907 hw3 <> expr:4 ind
+R909:909 hw3 <> X:3 var
+R923:926 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R920:922 hw3 Compiler var abbrev
+R933:936 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R927:930 hw3 <> expr:4 ind
+R932:932 hw3 <> X:3 var
+R943:946 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R937:940 hw3 <> expr:4 ind
+R942:942 hw3 <> X:3 var
+R947:950 hw3 <> expr:4 ind
+R952:952 hw3 <> X:3 var
+R966:970 hw3 Compiler Const constr
+R966:970 hw3 Compiler Const constr
+R987:989 hw3 Compiler Var constr
+R987:989 hw3 Compiler Var constr
+R1006:1009 hw3 Compiler Plus constr
+R1006:1009 hw3 Compiler Plus constr
+R1026:1029 hw3 Compiler Bind constr
+R1026:1029 hw3 Compiler Bind constr
+def 1156:1161 Compiler beq_id
+R1168:1170 hw3 Compiler var abbrev
+binder 1164:1164 <> x:6
+R1178:1180 hw3 Compiler var abbrev
+binder 1174:1174 <> y:7
+R1193:1197 hw3 Compiler :::x_'==v'_x not
+R1192:1192 hw3 <> x:6 var
+R1198:1198 hw3 <> y:7 var
+R1217:1221 Coq.Init.Datatypes <> false constr
+R1207:1210 Coq.Init.Datatypes <> true constr
+prf 1281:1291 Compiler beq_id_refl
+binder 1302:1304 <> var:8
+R1311:1313 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1307:1310 Coq.Init.Datatypes <> true constr
+R1314:1319 hw3 Compiler beq_id def
+R1321:1323 hw3 <> var:8 var
+R1325:1327 hw3 <> var:8 var
+R1354:1359 hw3 Compiler beq_id def
+R1369:1374 hw3 Compiler var_eq def
+R1389:1398 Coq.Strings.String <> string_dec def
+R1389:1398 Coq.Strings.String <> string_dec def
+prf 1567:1581 Compiler beq_id_true_iff
+R1598:1600 hw3 Compiler var abbrev
+binder 1592:1592 <> x:9
+binder 1594:1594 <> y:10
+R1622:1626 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1615:1617 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1605:1610 hw3 Compiler beq_id def
+R1612:1612 hw3 <> x:9 var
+R1614:1614 hw3 <> y:10 var
+R1618:1621 Coq.Init.Datatypes <> true constr
+R1628:1630 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1627:1627 hw3 <> x:9 var
+R1631:1631 hw3 <> y:10 var
+R1674:1679 hw3 Compiler beq_id def
+R1694:1699 hw3 Compiler var_eq def
+R1723:1732 Coq.Strings.String <> string_dec def
+R1723:1732 Coq.Strings.String <> string_dec def
+R1812:1817 hw3 Compiler beq_id def
+R1827:1832 hw3 Compiler var_eq def
+R1845:1854 Coq.Strings.String <> string_dec def
+R1845:1854 Coq.Strings.String <> string_dec def
+R1898:1900 Coq.Init.Logic <> not def
+prf 2034:2049 Compiler beq_id_false_iff
+R2066:2068 hw3 Compiler var abbrev
+binder 2060:2060 <> x:11
+binder 2062:2062 <> y:12
+R2091:2097 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2083:2085 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2073:2078 hw3 Compiler beq_id def
+R2080:2080 hw3 <> x:11 var
+R2082:2082 hw3 <> y:12 var
+R2086:2090 Coq.Init.Datatypes <> false constr
+R2099:2102 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2098:2098 hw3 <> x:11 var
+R2103:2103 hw3 <> y:12 var
+R2138:2152 hw3 Compiler beq_id_true_iff thm
+R2138:2152 hw3 Compiler beq_id_true_iff thm
+R2138:2152 hw3 Compiler beq_id_true_iff thm
+R2165:2182 Coq.Bool.Bool <> not_true_iff_false thm
+R2165:2182 Coq.Bool.Bool <> not_true_iff_false thm
+R2165:2182 Coq.Bool.Bool <> not_true_iff_false thm
+prf 2212:2223 Compiler false_beq_id
+R2240:2242 hw3 Compiler var abbrev
+binder 2234:2234 <> x:13
+binder 2236:2236 <> y:14
+R2254:2260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2249:2252 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2248:2248 hw3 <> x:13 var
+R2253:2253 hw3 <> y:14 var
+R2271:2273 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2261:2266 hw3 Compiler beq_id def
+R2268:2268 hw3 <> x:13 var
+R2270:2270 hw3 <> y:14 var
+R2274:2278 Coq.Init.Datatypes <> false constr
+R2310:2325 hw3 Compiler beq_id_false_iff thm
+R2310:2325 hw3 Compiler beq_id_false_iff thm
+R2310:2325 hw3 Compiler beq_id_false_iff thm
+def 2468:2476 Compiler total_map
+binder 2479:2479 <> X:15
+binder 2481:2481 <> A:16
+R2495:2498 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2494:2494 hw3 <> X:15 var
+R2499:2499 hw3 <> A:16 var
+def 2514:2520 Compiler t_empty
+binder 2524:2524 <> X:17
+binder 2527:2527 <> A:18
+R2543:2543 hw3 <> A:18 var
+binder 2539:2539 <> v:19
+R2549:2557 hw3 Compiler total_map def
+R2559:2559 hw3 <> X:17 var
+R2561:2561 hw3 <> A:18 var
+R2579:2579 hw3 <> v:19 var
+def 2595:2602 Compiler t_update
+binder 2606:2606 <> X:20
+binder 2608:2608 <> A:21
+R2625:2633 hw3 Compiler total_map def
+R2635:2635 hw3 <> X:20 var
+R2637:2637 hw3 <> A:21 var
+binder 2620:2620 <> m:22
+R2647:2650 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2646:2646 hw3 <> X:20 var
+R2652:2655 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2651:2651 hw3 <> X:20 var
+R2656:2659 Coq.Init.Datatypes <> bool ind
+binder 2642:2643 <> eq:23
+R2667:2667 hw3 <> X:20 var
+binder 2663:2663 <> x:24
+R2675:2675 hw3 <> A:21 var
+binder 2671:2671 <> v:25
+binder 2687:2688 <> x':26
+R2697:2698 hw3 <> eq:23 var
+R2702:2703 hw3 <> x':26 var
+R2700:2700 hw3 <> x:24 var
+R2718:2718 hw3 <> m:22 var
+R2720:2721 hw3 <> x':26 var
+R2711:2711 hw3 <> v:25 var
+def 2824:2827 Compiler symt
+binder 2831:2831 <> X:27
+R2845:2853 hw3 Compiler total_map def
+R2855:2857 hw3 Compiler var abbrev
+R2859:2859 hw3 <> X:27 var
+def 2874:2883 Compiler empty_symt
+binder 2887:2887 <> X:28
+R2906:2906 hw3 <> X:28 var
+binder 2899:2902 <> init:29
+R2913:2919 hw3 Compiler t_empty def
+R2921:2923 hw3 Compiler var abbrev
+R2925:2925 hw3 <> X:28 var
+R2927:2930 hw3 <> init:29 var
+def 2945:2955 Compiler symt_update
+binder 2959:2959 <> X:30
+R2975:2978 hw3 Compiler symt def
+R2980:2980 hw3 <> X:30 var
+binder 2971:2971 <> m:31
+R2988:2990 hw3 Compiler var abbrev
+binder 2984:2984 <> x:32
+R2998:2998 hw3 <> X:30 var
+binder 2994:2994 <> v:33
+R3006:3013 hw3 Compiler t_update def
+R3026:3026 hw3 <> v:33 var
+R3024:3024 hw3 <> x:32 var
+R3017:3022 hw3 Compiler beq_id def
+R3015:3015 hw3 <> m:31 var
+def 3041:3051 Compiler symt_lookup
+binder 3055:3055 <> X:34
+R3071:3074 hw3 Compiler symt def
+R3076:3076 hw3 <> X:34 var
+binder 3067:3067 <> m:35
+R3084:3086 hw3 Compiler var abbrev
+binder 3080:3080 <> x:36
+R3091:3091 hw3 <> X:34 var
+R3098:3098 hw3 <> m:35 var
+R3100:3100 hw3 <> x:36 var
+prf 3111:3124 Compiler symt_update_eq
+binder 3137:3137 <> X:37
+R3153:3156 hw3 Compiler symt def
+R3158:3158 hw3 <> X:37 var
+binder 3150:3150 <> m:38
+binder 3161:3161 <> x:39
+binder 3163:3163 <> r:40
+R3187:3189 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3168:3178 hw3 Compiler symt_update def
+R3186:3186 hw3 <> x:39 var
+R3184:3184 hw3 <> r:40 var
+R3182:3182 hw3 <> x:39 var
+R3180:3180 hw3 <> m:38 var
+R3190:3190 hw3 <> r:40 var
+R3217:3227 hw3 Compiler symt_update def
+R3237:3244 hw3 Compiler t_update def
+R3258:3268 hw3 Compiler beq_id_refl thm
+R3258:3268 hw3 Compiler beq_id_refl thm
+R3258:3268 hw3 Compiler beq_id_refl thm
+prf 3298:3312 Compiler symt_update_neq
+binder 3324:3324 <> X:41
+binder 3334:3334 <> v:42
+binder 3336:3337 <> x1:43
+binder 3339:3340 <> x2:44
+R3347:3350 hw3 Compiler symt def
+R3352:3352 hw3 <> X:41 var
+binder 3343:3343 <> m:45
+R3366:3371 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3360:3363 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3358:3359 hw3 <> x1:43 var
+R3364:3365 hw3 <> x2:44 var
+R3395:3397 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3373:3383 hw3 Compiler symt_update def
+R3390:3390 hw3 <> v:42 var
+R3387:3388 hw3 <> x1:43 var
+R3385:3385 hw3 <> m:45 var
+R3393:3394 hw3 <> x2:44 var
+R3398:3398 hw3 <> m:45 var
+R3400:3401 hw3 <> x2:44 var
+R3430:3440 hw3 Compiler symt_update def
+R3452:3459 hw3 Compiler t_update def
+R3472:3483 hw3 Compiler false_beq_id thm
+R3472:3483 hw3 Compiler false_beq_id thm
+R3472:3483 hw3 Compiler false_beq_id thm
+R3472:3483 hw3 Compiler false_beq_id thm
+def 3571:3574 Compiler eval
+R3581:3584 hw3 Compiler symt def
+R3586:3588 Coq.Init.Datatypes <> nat ind
+binder 3577:3577 <> s:46
+R3596:3599 hw3 Compiler expr ind
+R3601:3603 Coq.Init.Datatypes <> nat ind
+binder 3592:3592 <> e:47
+R3628:3628 hw3 <> e:47 var
+R3639:3643 hw3 Compiler Const constr
+R3656:3658 hw3 Compiler Var constr
+R3665:3675 hw3 Compiler symt_lookup def
+R3677:3677 hw3 <> s:46 var
+R3685:3688 hw3 Compiler Bind constr
+R3708:3711 hw3 <> eval:48 def
+R3713:3713 hw3 <> s:46 var
+R3751:3754 hw3 <> eval:48 def
+R3757:3767 hw3 Compiler symt_update def
+R3769:3769 hw3 <> s:46 var
+R3807:3810 hw3 Compiler Plus constr
+R3828:3831 hw3 <> eval:48 def
+R3833:3833 hw3 <> s:46 var
+R3876:3879 hw3 <> eval:48 def
+R3881:3881 hw3 <> s:46 var
+R3926:3928 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+def 4149:4151 Compiler reg
+R4156:4158 Coq.Init.Datatypes <> nat ind
+ind 4191:4194 Compiler cell
+constr 4208:4210 Compiler Reg
+constr 4228:4230 Compiler Acc
+R4217:4220 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4214:4216 hw3 Compiler reg def
+R4221:4224 hw3 <> cell:50 ind
+R4234:4237 hw3 <> cell:50 ind
+def 4384:4390 Compiler cell_id
+binder 4392:4392 <> x:52
+binder 4394:4394 <> y:53
+R4409:4409 hw3 <> y:53 var
+R4407:4407 hw3 <> x:52 var
+R4422:4424 hw3 Compiler Acc constr
+R4427:4429 hw3 Compiler Acc constr
+R4434:4437 Coq.Init.Datatypes <> true constr
+R4446:4448 hw3 Compiler Reg constr
+R4456:4458 hw3 Compiler Reg constr
+R4470:4473 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R4491:4495 Coq.Init.Datatypes <> false constr
+prf 4632:4640 Compiler cell_refl
+binder 4651:4651 <> c:56
+R4658:4660 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4654:4657 Coq.Init.Datatypes <> true constr
+R4661:4667 hw3 Compiler cell_id def
+R4669:4669 hw3 <> c:56 var
+R4671:4671 hw3 <> c:56 var
+R4696:4702 hw3 Compiler cell_id def
+prf 4827:4839 Compiler cell_true_iff
+R4856:4859 hw3 Compiler cell ind
+binder 4850:4850 <> x:57
+binder 4852:4852 <> y:58
+R4882:4886 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4875:4877 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4864:4870 hw3 Compiler cell_id def
+R4872:4872 hw3 <> x:57 var
+R4874:4874 hw3 <> y:58 var
+R4878:4881 Coq.Init.Datatypes <> true constr
+R4888:4890 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4887:4887 hw3 <> x:57 var
+R4891:4891 hw3 <> y:58 var
+R4935:4941 hw3 Compiler cell_id def
+R5073:5082 Coq.Arith.PeanoNat Nat eqb_eq thm
+R5073:5082 Coq.Arith.PeanoNat Nat eqb_eq thm
+R5249:5257 hw3 Compiler cell_refl thm
+R5249:5257 hw3 Compiler cell_refl thm
+prf 5295:5308 Compiler cell_false_iff
+R5325:5328 hw3 Compiler cell ind
+binder 5319:5319 <> x:59
+binder 5321:5321 <> y:60
+R5352:5358 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5344:5346 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5333:5339 hw3 Compiler cell_id def
+R5341:5341 hw3 <> x:59 var
+R5343:5343 hw3 <> y:60 var
+R5347:5351 Coq.Init.Datatypes <> false constr
+R5360:5363 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5359:5359 hw3 <> x:59 var
+R5364:5364 hw3 <> y:60 var
+R5397:5409 hw3 Compiler cell_true_iff thm
+R5397:5409 hw3 Compiler cell_true_iff thm
+R5397:5409 hw3 Compiler cell_true_iff thm
+R5420:5437 Coq.Bool.Bool <> not_true_iff_false thm
+R5420:5437 Coq.Bool.Bool <> not_true_iff_false thm
+R5420:5437 Coq.Bool.Bool <> not_true_iff_false thm
+prf 5482:5495 Compiler false_beq_cell
+R5512:5515 hw3 Compiler cell ind
+binder 5506:5506 <> x:61
+binder 5508:5508 <> y:62
+R5527:5533 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5522:5525 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5521:5521 hw3 <> x:61 var
+R5526:5526 hw3 <> y:62 var
+R5545:5547 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5534:5540 hw3 Compiler cell_id def
+R5542:5542 hw3 <> x:61 var
+R5544:5544 hw3 <> y:62 var
+R5548:5552 Coq.Init.Datatypes <> false constr
+R5582:5595 hw3 Compiler cell_false_iff thm
+R5582:5595 hw3 Compiler cell_false_iff thm
+R5582:5595 hw3 Compiler cell_false_iff thm
+def 5721:5725 Compiler store
+R5730:5738 hw3 Compiler total_map def
+R5740:5743 hw3 Compiler cell ind
+R5745:5747 Coq.Init.Datatypes <> nat ind
+def 5762:5773 Compiler store_update
+R5780:5784 hw3 Compiler store def
+binder 5776:5776 <> s:63
+R5792:5795 hw3 Compiler cell ind
+binder 5788:5788 <> c:64
+R5803:5805 Coq.Init.Datatypes <> nat ind
+binder 5799:5799 <> v:65
+R5813:5820 hw3 Compiler t_update def
+R5834:5834 hw3 <> v:65 var
+R5832:5832 hw3 <> c:64 var
+R5824:5830 hw3 Compiler cell_id def
+R5822:5822 hw3 <> s:63 var
+def 5853:5863 Compiler empty_store
+R5869:5875 hw3 Compiler t_empty def
+R5877:5880 hw3 Compiler cell ind
+R5882:5884 Coq.Init.Datatypes <> nat ind
+def 5901:5912 Compiler store_lookup
+R5919:5923 hw3 Compiler store def
+binder 5915:5915 <> s:66
+R5931:5934 hw3 Compiler cell ind
+binder 5927:5927 <> c:67
+R5941:5941 hw3 <> s:66 var
+R5943:5943 hw3 <> c:67 var
+prf 5954:5970 Compiler store_apply_empty
+binder 5981:5981 <> A:68
+binder 5983:5983 <> B:69
+binder 5985:5985 <> x:70
+binder 5987:5987 <> v:71
+R6006:6008 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5991:5997 hw3 Compiler t_empty def
+R5999:5999 hw3 <> A:68 var
+R6001:6001 hw3 <> B:69 var
+R6003:6003 hw3 <> v:71 var
+R6005:6005 hw3 <> x:70 var
+R6009:6009 hw3 <> v:71 var
+prf 6061:6075 Compiler store_update_eq
+R6090:6094 hw3 Compiler store def
+binder 6087:6087 <> s:72
+binder 6097:6097 <> x:73
+binder 6099:6099 <> v:74
+R6128:6130 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6107:6118 hw3 Compiler store_update def
+R6120:6120 hw3 <> s:72 var
+R6122:6122 hw3 <> x:73 var
+R6124:6124 hw3 <> v:74 var
+R6127:6127 hw3 <> x:73 var
+R6131:6131 hw3 <> v:74 var
+R6158:6169 hw3 Compiler store_update def
+R6172:6179 hw3 Compiler t_update def
+R6194:6202 hw3 Compiler cell_refl thm
+R6194:6202 hw3 Compiler cell_refl thm
+R6194:6202 hw3 Compiler cell_refl thm
+prf 6250:6265 Compiler store_update_neq
+binder 6276:6276 <> v:75
+binder 6278:6279 <> x1:76
+binder 6281:6282 <> x2:77
+R6289:6293 hw3 Compiler store def
+binder 6285:6285 <> s:78
+R6307:6312 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6301:6304 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6299:6300 hw3 <> x1:76 var
+R6305:6306 hw3 <> x2:77 var
+R6337:6339 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6314:6325 hw3 Compiler store_update def
+R6327:6327 hw3 <> s:78 var
+R6329:6330 hw3 <> x1:76 var
+R6332:6332 hw3 <> v:75 var
+R6335:6336 hw3 <> x2:77 var
+R6340:6340 hw3 <> s:78 var
+R6342:6343 hw3 <> x2:77 var
+R6368:6379 hw3 Compiler store_update def
+R6382:6389 hw3 Compiler t_update def
+R6400:6413 hw3 Compiler false_beq_cell thm
+R6400:6413 hw3 Compiler false_beq_cell thm
+R6400:6413 hw3 Compiler false_beq_cell thm
+R6400:6413 hw3 Compiler false_beq_cell thm
+ind 6961:6965 Compiler instr
+constr 6977:6978 Compiler LI
+constr 6996:6999 Compiler LOAD
+constr 7017:7019 Compiler STO
+constr 7037:7039 Compiler ADD
+R6985:6988 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6982:6984 Coq.Init.Datatypes <> nat ind
+R6989:6993 hw3 <> instr:79 ind
+R7006:7009 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7003:7005 hw3 Compiler reg def
+R7010:7014 hw3 <> instr:79 ind
+R7026:7029 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7023:7025 hw3 Compiler reg def
+R7030:7034 hw3 <> instr:79 ind
+R7046:7049 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7043:7045 hw3 Compiler reg def
+R7050:7054 hw3 <> instr:79 ind
+def 7128:7129 Compiler Si
+R7136:7140 hw3 Compiler store def
+binder 7132:7132 <> s:81
+R7148:7152 hw3 Compiler instr ind
+binder 7144:7144 <> i:82
+R7157:7161 hw3 Compiler store def
+R7172:7172 hw3 <> i:82 var
+R7180:7181 hw3 Compiler LI constr
+R7188:7199 hw3 Compiler store_update def
+R7201:7201 hw3 <> s:81 var
+R7203:7205 hw3 Compiler Acc constr
+R7210:7213 hw3 Compiler LOAD constr
+R7220:7231 hw3 Compiler store_update def
+R7233:7233 hw3 <> s:81 var
+R7235:7237 hw3 Compiler Acc constr
+R7240:7251 hw3 Compiler store_lookup def
+R7253:7253 hw3 <> s:81 var
+R7256:7258 hw3 Compiler Reg constr
+R7265:7267 hw3 Compiler STO constr
+R7274:7285 hw3 Compiler store_update def
+R7287:7287 hw3 <> s:81 var
+R7290:7292 hw3 Compiler Reg constr
+R7298:7309 hw3 Compiler store_lookup def
+R7311:7311 hw3 <> s:81 var
+R7313:7315 hw3 Compiler Acc constr
+R7319:7321 hw3 Compiler ADD constr
+R7328:7339 hw3 Compiler store_update def
+R7341:7341 hw3 <> s:81 var
+R7343:7345 hw3 Compiler Acc constr
+R7348:7348 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R7367:7371 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R7394:7394 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R7349:7360 hw3 Compiler store_lookup def
+R7362:7362 hw3 <> s:81 var
+R7364:7366 hw3 Compiler Acc constr
+R7372:7383 hw3 Compiler store_lookup def
+R7385:7385 hw3 <> s:81 var
+R7388:7390 hw3 Compiler Reg constr
+def 7454:7455 Compiler Sl
+R7462:7466 hw3 Compiler store def
+binder 7458:7458 <> s:84
+R7474:7477 Coq.Init.Datatypes <> list ind
+R7479:7483 hw3 Compiler instr ind
+binder 7470:7470 <> l:85
+R7499:7503 hw3 Compiler store def
+R7514:7514 hw3 <> l:85 var
+R7526:7528 Coq.Init.Datatypes <> nil constr
+R7533:7533 hw3 <> s:84 var
+R7538:7541 Coq.Init.Datatypes <> cons constr
+R7552:7553 hw3 <> Sl:86 def
+R7556:7557 hw3 Compiler Si def
+R7559:7559 hw3 <> s:84 var
+def 7666:7669 Compiler regt
+R7674:7682 hw3 Compiler total_map def
+R7684:7686 hw3 Compiler var abbrev
+R7688:7690 hw3 Compiler reg def
+def 7705:7714 Compiler empty_regt
+R7720:7726 hw3 Compiler t_empty def
+R7728:7730 hw3 Compiler var abbrev
+R7732:7734 hw3 Compiler reg def
+def 7751:7761 Compiler regt_update
+R7768:7771 hw3 Compiler regt def
+binder 7764:7764 <> m:88
+R7779:7781 hw3 Compiler var abbrev
+binder 7775:7775 <> x:89
+R7789:7791 hw3 Compiler reg def
+binder 7785:7785 <> r:90
+R7799:7806 hw3 Compiler t_update def
+R7819:7819 hw3 <> r:90 var
+R7817:7817 hw3 <> x:89 var
+R7810:7815 hw3 Compiler beq_id def
+R7808:7808 hw3 <> m:88 var
+def 7834:7844 Compiler regt_lookup
+R7851:7854 hw3 Compiler regt def
+binder 7847:7847 <> m:91
+R7862:7864 hw3 Compiler var abbrev
+binder 7858:7858 <> x:92
+R7872:7872 hw3 <> m:91 var
+R7874:7874 hw3 <> x:92 var
+prf 7900:7913 Compiler regt_update_eq
+R7928:7931 hw3 Compiler regt def
+binder 7925:7925 <> m:93
+binder 7934:7934 <> x:94
+binder 7936:7936 <> r:95
+R7960:7962 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7941:7951 hw3 Compiler regt_update def
+R7953:7953 hw3 <> m:93 var
+R7955:7955 hw3 <> x:94 var
+R7957:7957 hw3 <> r:95 var
+R7959:7959 hw3 <> x:94 var
+R7963:7963 hw3 <> r:95 var
+R7988:7998 hw3 Compiler regt_update def
+R8001:8008 hw3 Compiler t_update def
+R8022:8032 hw3 Compiler beq_id_refl thm
+R8022:8032 hw3 Compiler beq_id_refl thm
+R8022:8032 hw3 Compiler beq_id_refl thm
+prf 8076:8090 Compiler regt_update_neq
+binder 8101:8101 <> v:96
+binder 8103:8104 <> x1:97
+binder 8106:8107 <> x2:98
+R8114:8117 hw3 Compiler regt def
+binder 8110:8110 <> m:99
+R8131:8136 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8125:8128 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R8123:8124 hw3 <> x1:97 var
+R8129:8130 hw3 <> x2:98 var
+R8160:8162 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8138:8148 hw3 Compiler regt_update def
+R8150:8150 hw3 <> m:99 var
+R8152:8153 hw3 <> x1:97 var
+R8155:8155 hw3 <> v:96 var
+R8158:8159 hw3 <> x2:98 var
+R8163:8163 hw3 <> m:99 var
+R8165:8166 hw3 <> x2:98 var
+R8191:8201 hw3 Compiler regt_update def
+R8204:8211 hw3 Compiler t_update def
+R8222:8233 hw3 Compiler false_beq_id thm
+R8222:8233 hw3 Compiler false_beq_id thm
+R8222:8233 hw3 Compiler false_beq_id thm
+R8222:8233 hw3 Compiler false_beq_id thm
+ind 10134:10134 Compiler C
+constr 10188:10194 Compiler c_const
+constr 10290:10296 Compiler c_deref
+constr 10395:10399 Compiler c_add
+constr 10567:10572 Compiler c_bind
+R10142:10145 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10138:10141 hw3 Compiler regt def
+R10149:10152 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10146:10148 hw3 Compiler reg def
+R10161:10164 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10153:10156 hw3 Compiler expr ind
+R10158:10160 Coq.Init.Datatypes <> nat ind
+R10175:10178 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10165:10168 Coq.Init.Datatypes <> list ind
+R10170:10174 hw3 Compiler instr ind
+R10201:10204 hw3 Compiler regt def
+binder 10197:10197 <> m:102
+R10212:10214 hw3 Compiler reg def
+binder 10208:10208 <> r:103
+R10222:10225 hw3 Compiler expr ind
+R10227:10229 Coq.Init.Datatypes <> nat ind
+binder 10218:10218 <> e:104
+R10237:10240 Coq.Init.Datatypes <> list ind
+R10242:10246 hw3 Compiler instr ind
+binder 10233:10233 <> l:105
+R10254:10256 Coq.Init.Datatypes <> nat ind
+binder 10250:10250 <> n:106
+R10265:10265 hw3 <> C:100 ind
+R10281:10281 hw3 <> :::'['_x_';'_'..'_';'_x_']' not
+R10286:10286 hw3 <> :::'['_x_';'_'..'_';'_x_']' not
+R10282:10283 hw3 Compiler LI constr
+R10285:10285 hw3 <> n:106 var
+R10272:10276 hw3 Compiler Const constr
+R10278:10278 hw3 <> n:106 var
+R10269:10269 hw3 <> r:103 var
+R10267:10267 hw3 <> m:102 var
+R10302:10305 hw3 Compiler regt def
+binder 10299:10299 <> m:107
+R10313:10315 hw3 Compiler reg def
+binder 10309:10309 <> r:108
+R10323:10326 hw3 Compiler expr ind
+R10328:10330 Coq.Init.Datatypes <> nat ind
+binder 10319:10319 <> e:109
+R10338:10341 Coq.Init.Datatypes <> list ind
+R10343:10347 hw3 Compiler instr ind
+binder 10334:10334 <> l:110
+R10355:10357 hw3 Compiler var abbrev
+binder 10351:10351 <> x:111
+R10366:10366 hw3 <> C:100 ind
+R10380:10380 hw3 <> :::'['_x_';'_'..'_';'_x_']' not
+R10391:10391 hw3 <> :::'['_x_';'_'..'_';'_x_']' not
+R10381:10384 hw3 Compiler LOAD constr
+R10387:10387 hw3 <> m:107 var
+R10389:10389 hw3 <> x:111 var
+R10373:10375 hw3 Compiler Var constr
+R10377:10377 hw3 <> x:111 var
+R10370:10370 hw3 <> r:108 var
+R10368:10368 hw3 <> m:107 var
+R10406:10409 hw3 Compiler regt def
+binder 10402:10402 <> m:112
+R10417:10419 hw3 Compiler reg def
+binder 10413:10413 <> r:113
+R10430:10433 hw3 Compiler expr ind
+R10435:10437 Coq.Init.Datatypes <> nat ind
+binder 10423:10424 <> e1:114
+binder 10426:10427 <> e2:115
+R10449:10452 Coq.Init.Datatypes <> list ind
+R10454:10458 hw3 Compiler instr ind
+binder 10441:10442 <> l1:116
+binder 10444:10445 <> l2:117
+R10466:10466 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10478:10485 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10467:10467 hw3 <> C:100 ind
+R10476:10477 hw3 <> l1:116 var
+R10473:10474 hw3 <> e1:114 var
+R10471:10471 hw3 <> r:113 var
+R10469:10469 hw3 <> m:112 var
+R10486:10486 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10504:10512 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10564:10564 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10487:10487 hw3 <> C:100 ind
+R10502:10503 hw3 <> l2:117 var
+R10499:10500 hw3 <> e2:115 var
+R10493:10495 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R10492:10492 hw3 <> r:113 var
+R10489:10489 hw3 <> m:112 var
+R10513:10513 hw3 <> C:100 ind
+R10535:10538 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R10533:10534 hw3 <> l1:116 var
+R10546:10549 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R10539:10539 hw3 <> :::'['_x_';'_'..'_';'_x_']' not
+R10545:10545 hw3 <> :::'['_x_';'_'..'_';'_x_']' not
+R10540:10542 hw3 Compiler STO constr
+R10544:10544 hw3 <> r:113 var
+R10552:10555 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R10550:10551 hw3 <> l2:117 var
+R10556:10556 hw3 <> :::'['_x_';'_'..'_';'_x_']' not
+R10562:10562 hw3 <> :::'['_x_';'_'..'_';'_x_']' not
+R10557:10559 hw3 Compiler ADD constr
+R10561:10561 hw3 <> r:113 var
+R10520:10523 hw3 Compiler Plus constr
+R10528:10529 hw3 <> e2:115 var
+R10525:10526 hw3 <> e1:114 var
+R10517:10517 hw3 <> r:113 var
+R10515:10515 hw3 <> m:112 var
+R10579:10582 hw3 Compiler regt def
+binder 10575:10575 <> m:118
+R10590:10592 hw3 Compiler reg def
+binder 10586:10586 <> r:119
+R10600:10602 hw3 Compiler var abbrev
+binder 10596:10596 <> x:120
+R10613:10616 hw3 Compiler expr ind
+R10618:10620 Coq.Init.Datatypes <> nat ind
+binder 10606:10607 <> e1:121
+binder 10609:10610 <> e2:122
+R10632:10635 Coq.Init.Datatypes <> list ind
+R10637:10641 hw3 Compiler instr ind
+binder 10624:10625 <> l1:123
+binder 10627:10628 <> l2:124
+R10649:10649 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10661:10668 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10650:10650 hw3 <> C:100 ind
+R10659:10660 hw3 <> l1:123 var
+R10656:10657 hw3 <> e1:121 var
+R10654:10654 hw3 <> r:119 var
+R10652:10652 hw3 <> m:118 var
+R10669:10669 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10703:10711 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10754:10754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10670:10670 hw3 <> C:100 ind
+R10701:10702 hw3 <> l2:124 var
+R10698:10699 hw3 <> e2:122 var
+R10694:10694 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R10693:10693 hw3 <> r:119 var
+R10673:10683 hw3 Compiler regt_update def
+R10685:10685 hw3 <> m:118 var
+R10687:10687 hw3 <> x:120 var
+R10689:10689 hw3 <> r:119 var
+R10712:10712 hw3 <> C:100 ind
+R10736:10739 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R10734:10735 hw3 <> l1:123 var
+R10747:10750 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R10740:10740 hw3 <> :::'['_x_';'_'..'_';'_x_']' not
+R10746:10746 hw3 <> :::'['_x_';'_'..'_';'_x_']' not
+R10741:10743 hw3 Compiler STO constr
+R10745:10745 hw3 <> r:119 var
+R10751:10752 hw3 <> l2:124 var
+R10719:10722 hw3 Compiler Bind constr
+R10729:10730 hw3 <> e2:122 var
+R10726:10727 hw3 <> e1:121 var
+R10724:10724 hw3 <> x:120 var
+R10716:10716 hw3 <> r:119 var
+R10714:10714 hw3 <> m:118 var
+prf 11232:11240 Compiler Sl_append
+R11262:11265 Coq.Init.Datatypes <> list ind
+R11267:11271 hw3 Compiler instr ind
+binder 11254:11255 <> l1:125
+binder 11257:11258 <> l2:126
+R11279:11283 hw3 Compiler store def
+binder 11275:11275 <> s:127
+R11302:11304 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11287:11288 hw3 Compiler Sl def
+R11290:11290 hw3 <> s:127 var
+R11295:11298 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R11293:11294 hw3 <> l1:125 var
+R11299:11300 hw3 <> l2:126 var
+R11305:11306 hw3 Compiler Sl def
+R11309:11310 hw3 Compiler Sl def
+R11312:11312 hw3 <> s:127 var
+R11314:11315 hw3 <> l1:125 var
+R11318:11319 hw3 <> l2:126 var
+prf 11761:11772 Compiler Sl_invariant
+R11791:11794 hw3 Compiler expr ind
+R11796:11798 Coq.Init.Datatypes <> nat ind
+binder 11787:11787 <> e:128
+R11806:11809 hw3 Compiler regt def
+binder 11802:11802 <> m:129
+R11818:11822 hw3 Compiler store def
+binder 11813:11814 <> st:130
+R11833:11835 hw3 Compiler reg def
+binder 11826:11826 <> r:131
+binder 11828:11829 <> r':132
+R11843:11846 Coq.Init.Datatypes <> list ind
+R11848:11852 hw3 Compiler instr ind
+binder 11839:11839 <> l:133
+R11870:11883 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11866:11868 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R11864:11865 hw3 <> r':132 var
+R11869:11869 hw3 <> r:131 var
+R11884:11884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11894:11906 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11885:11885 hw3 Compiler C ind
+R11887:11887 hw3 <> m:129 var
+R11889:11889 hw3 <> r:131 var
+R11891:11891 hw3 <> e:128 var
+R11893:11893 hw3 <> l:133 var
+R11923:11926 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11907:11908 hw3 Compiler Sl def
+R11910:11911 hw3 <> st:130 var
+R11913:11913 hw3 <> l:133 var
+R11916:11918 hw3 Compiler Reg constr
+R11920:11921 hw3 <> r':132 var
+R11927:11928 hw3 <> st:130 var
+R11931:11933 hw3 Compiler Reg constr
+R11935:11936 hw3 <> r':132 var
+R12090:12098 hw3 Compiler Sl_append thm
+R12090:12098 hw3 Compiler Sl_append thm
+R12090:12098 hw3 Compiler Sl_append thm
+R12109:12117 hw3 Compiler Sl_append thm
+R12109:12117 hw3 Compiler Sl_append thm
+R12109:12117 hw3 Compiler Sl_append thm
+R12128:12136 hw3 Compiler Sl_append thm
+R12128:12136 hw3 Compiler Sl_append thm
+R12128:12136 hw3 Compiler Sl_append thm
+R12154:12169 hw3 Compiler store_update_neq thm
+R12154:12169 hw3 Compiler store_update_neq thm
+R12154:12169 hw3 Compiler store_update_neq thm
+R12154:12169 hw3 Compiler store_update_neq thm
+R12210:12221 hw3 Compiler store_update def
+R12224:12225 hw3 Compiler Sl def
+R12235:12237 hw3 Compiler Reg constr
+R12243:12254 hw3 Compiler store_lookup def
+R12257:12258 hw3 Compiler Sl def
+R12267:12269 hw3 Compiler Acc constr
+R12279:12279 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R12210:12221 hw3 Compiler store_update def
+R12224:12225 hw3 Compiler Sl def
+R12235:12237 hw3 Compiler Reg constr
+R12243:12254 hw3 Compiler store_lookup def
+R12257:12258 hw3 Compiler Sl def
+R12267:12269 hw3 Compiler Acc constr
+R12279:12279 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R12210:12221 hw3 Compiler store_update def
+R12224:12225 hw3 Compiler Sl def
+R12235:12237 hw3 Compiler Reg constr
+R12243:12254 hw3 Compiler store_lookup def
+R12257:12258 hw3 Compiler Sl def
+R12267:12269 hw3 Compiler Acc constr
+R12279:12279 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R12210:12221 hw3 Compiler store_update def
+R12224:12225 hw3 Compiler Sl def
+R12235:12237 hw3 Compiler Reg constr
+R12243:12254 hw3 Compiler store_lookup def
+R12257:12258 hw3 Compiler Sl def
+R12267:12269 hw3 Compiler Acc constr
+R12279:12279 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R12210:12221 hw3 Compiler store_update def
+R12224:12225 hw3 Compiler Sl def
+R12235:12237 hw3 Compiler Reg constr
+R12243:12254 hw3 Compiler store_lookup def
+R12257:12258 hw3 Compiler Sl def
+R12267:12269 hw3 Compiler Acc constr
+R12279:12279 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R12316:12331 hw3 Compiler store_update_neq thm
+R12316:12331 hw3 Compiler store_update_neq thm
+R12316:12331 hw3 Compiler store_update_neq thm
+R12316:12331 hw3 Compiler store_update_neq thm
+R12595:12603 hw3 Compiler Sl_append thm
+R12595:12603 hw3 Compiler Sl_append thm
+R12595:12603 hw3 Compiler Sl_append thm
+R12614:12622 hw3 Compiler Sl_append thm
+R12614:12622 hw3 Compiler Sl_append thm
+R12614:12622 hw3 Compiler Sl_append thm
+R12655:12665 hw3 Compiler regt_update def
+R12680:12691 hw3 Compiler store_update def
+R12694:12695 hw3 Compiler Sl def
+R12705:12707 hw3 Compiler Reg constr
+R12713:12724 hw3 Compiler store_lookup def
+R12727:12728 hw3 Compiler Sl def
+R12737:12739 hw3 Compiler Acc constr
+R12750:12750 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R12655:12665 hw3 Compiler regt_update def
+R12680:12691 hw3 Compiler store_update def
+R12694:12695 hw3 Compiler Sl def
+R12705:12707 hw3 Compiler Reg constr
+R12713:12724 hw3 Compiler store_lookup def
+R12727:12728 hw3 Compiler Sl def
+R12737:12739 hw3 Compiler Acc constr
+R12750:12750 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R12655:12665 hw3 Compiler regt_update def
+R12680:12691 hw3 Compiler store_update def
+R12694:12695 hw3 Compiler Sl def
+R12705:12707 hw3 Compiler Reg constr
+R12713:12724 hw3 Compiler store_lookup def
+R12727:12728 hw3 Compiler Sl def
+R12737:12739 hw3 Compiler Acc constr
+R12750:12750 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R12655:12665 hw3 Compiler regt_update def
+R12680:12691 hw3 Compiler store_update def
+R12694:12695 hw3 Compiler Sl def
+R12705:12707 hw3 Compiler Reg constr
+R12713:12724 hw3 Compiler store_lookup def
+R12727:12728 hw3 Compiler Sl def
+R12737:12739 hw3 Compiler Acc constr
+R12750:12750 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R12655:12665 hw3 Compiler regt_update def
+R12680:12691 hw3 Compiler store_update def
+R12694:12695 hw3 Compiler Sl def
+R12705:12707 hw3 Compiler Reg constr
+R12713:12724 hw3 Compiler store_lookup def
+R12727:12728 hw3 Compiler Sl def
+R12737:12739 hw3 Compiler Acc constr
+R12750:12750 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R12785:12800 hw3 Compiler store_update_neq thm
+R12785:12800 hw3 Compiler store_update_neq thm
+R12785:12800 hw3 Compiler store_update_neq thm
+R12785:12800 hw3 Compiler store_update_neq thm
+prf 13416:13417 Compiler HA
+R13432:13434 Coq.Init.Datatypes <> nat ind
+binder 13428:13428 <> n:134
+R13448:13451 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13438:13440 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13444:13446 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R13441:13441 Coq.Init.Datatypes <> S constr
+R13443:13443 hw3 <> n:134 var
+R13452:13456 Coq.Init.Logic <> False ind
+prf 13526:13536 Compiler correctness
+R13554:13557 hw3 Compiler expr ind
+R13559:13561 Coq.Init.Datatypes <> nat ind
+binder 13550:13550 <> e:135
+R13569:13572 hw3 Compiler regt def
+binder 13565:13565 <> m:136
+R13580:13582 hw3 Compiler reg def
+binder 13576:13576 <> r:137
+R13590:13593 Coq.Init.Datatypes <> list ind
+R13595:13599 hw3 Compiler instr ind
+binder 13586:13586 <> l:138
+R13608:13612 hw3 Compiler store def
+binder 13603:13604 <> st:139
+R13621:13624 hw3 Compiler symt def
+R13626:13628 Coq.Init.Datatypes <> nat ind
+binder 13616:13618 <> sym:140
+R13636:13636 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13646:13654 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13637:13637 hw3 Compiler C ind
+R13639:13639 hw3 <> m:136 var
+R13641:13641 hw3 <> r:137 var
+R13643:13643 hw3 <> e:135 var
+R13645:13645 hw3 <> l:138 var
+R13655:13655 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13683:13691 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13668:13670 hw3 Compiler var abbrev
+binder 13664:13664 <> v:141
+R13674:13674 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R13678:13681 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R13675:13675 hw3 <> m:136 var
+R13677:13677 hw3 <> v:141 var
+R13682:13682 hw3 <> r:137 var
+R13692:13692 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13733:13738 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13705:13707 hw3 Compiler var abbrev
+binder 13701:13701 <> v:142
+R13716:13718 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13711:13713 hw3 <> sym:140 var
+R13715:13715 hw3 <> v:142 var
+R13719:13720 hw3 <> st:139 var
+R13723:13725 hw3 Compiler Reg constr
+R13728:13728 hw3 <> m:136 var
+R13730:13730 hw3 <> v:142 var
+R13750:13752 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13739:13740 hw3 Compiler Sl def
+R13742:13743 hw3 <> st:139 var
+R13745:13745 hw3 <> l:138 var
+R13747:13749 hw3 Compiler Acc constr
+R13753:13756 hw3 Compiler eval def
+R13758:13760 hw3 <> sym:140 var
+R13762:13762 hw3 <> e:135 var
+R13883:13894 hw3 Compiler store_update def
+R13904:13911 hw3 Compiler t_update def
+R13925:13933 hw3 Compiler cell_refl thm
+R13925:13933 hw3 Compiler cell_refl thm
+R13925:13933 hw3 Compiler cell_refl thm
+R13943:13954 hw3 Compiler store_lookup def
+R13964:13974 hw3 Compiler symt_lookup def
+R14033:14041 hw3 Compiler Sl_append thm
+R14033:14041 hw3 Compiler Sl_append thm
+R14033:14041 hw3 Compiler Sl_append thm
+R14052:14060 hw3 Compiler Sl_append thm
+R14052:14060 hw3 Compiler Sl_append thm
+R14052:14060 hw3 Compiler Sl_append thm
+R14071:14079 hw3 Compiler Sl_append thm
+R14071:14079 hw3 Compiler Sl_append thm
+R14071:14079 hw3 Compiler Sl_append thm
+R14097:14111 hw3 Compiler store_update_eq thm
+R14097:14111 hw3 Compiler store_update_eq thm
+R14097:14111 hw3 Compiler store_update_eq thm
+R14121:14132 hw3 Compiler store_lookup def
+R14166:14166 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R14183:14194 hw3 Compiler store_update def
+R14197:14198 hw3 Compiler Sl def
+R14208:14210 hw3 Compiler Reg constr
+R14216:14217 hw3 Compiler Sl def
+R14225:14227 hw3 Compiler Acc constr
+R14166:14166 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R14183:14194 hw3 Compiler store_update def
+R14197:14198 hw3 Compiler Sl def
+R14208:14210 hw3 Compiler Reg constr
+R14216:14217 hw3 Compiler Sl def
+R14225:14227 hw3 Compiler Acc constr
+R14166:14166 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R14183:14194 hw3 Compiler store_update def
+R14197:14198 hw3 Compiler Sl def
+R14208:14210 hw3 Compiler Reg constr
+R14216:14217 hw3 Compiler Sl def
+R14225:14227 hw3 Compiler Acc constr
+R14166:14166 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R14183:14194 hw3 Compiler store_update def
+R14197:14198 hw3 Compiler Sl def
+R14208:14210 hw3 Compiler Reg constr
+R14216:14217 hw3 Compiler Sl def
+R14225:14227 hw3 Compiler Acc constr
+R14166:14166 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R14183:14194 hw3 Compiler store_update def
+R14197:14198 hw3 Compiler Sl def
+R14208:14210 hw3 Compiler Reg constr
+R14216:14217 hw3 Compiler Sl def
+R14225:14227 hw3 Compiler Acc constr
+R14166:14166 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R14183:14194 hw3 Compiler store_update def
+R14197:14198 hw3 Compiler Sl def
+R14208:14210 hw3 Compiler Reg constr
+R14216:14217 hw3 Compiler Sl def
+R14225:14227 hw3 Compiler Acc constr
+R14300:14311 hw3 Compiler store_update def
+R14314:14315 hw3 Compiler Sl def
+R14325:14327 hw3 Compiler Reg constr
+R14333:14334 hw3 Compiler Sl def
+R14342:14344 hw3 Compiler Acc constr
+R14355:14355 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R14255:14266 hw3 Compiler Sl_invariant thm
+R14300:14311 hw3 Compiler store_update def
+R14314:14315 hw3 Compiler Sl def
+R14325:14327 hw3 Compiler Reg constr
+R14333:14334 hw3 Compiler Sl def
+R14342:14344 hw3 Compiler Acc constr
+R14355:14355 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R14255:14266 hw3 Compiler Sl_invariant thm
+R14300:14311 hw3 Compiler store_update def
+R14314:14315 hw3 Compiler Sl def
+R14325:14327 hw3 Compiler Reg constr
+R14333:14334 hw3 Compiler Sl def
+R14342:14344 hw3 Compiler Acc constr
+R14355:14355 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R14255:14266 hw3 Compiler Sl_invariant thm
+R14300:14311 hw3 Compiler store_update def
+R14314:14315 hw3 Compiler Sl def
+R14325:14327 hw3 Compiler Reg constr
+R14333:14334 hw3 Compiler Sl def
+R14342:14344 hw3 Compiler Acc constr
+R14355:14355 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R14255:14266 hw3 Compiler Sl_invariant thm
+R14300:14311 hw3 Compiler store_update def
+R14314:14315 hw3 Compiler Sl def
+R14325:14327 hw3 Compiler Reg constr
+R14333:14334 hw3 Compiler Sl def
+R14342:14344 hw3 Compiler Acc constr
+R14355:14355 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R14255:14266 hw3 Compiler Sl_invariant thm
+R14392:14406 hw3 Compiler store_update_eq thm
+R14392:14406 hw3 Compiler store_update_eq thm
+R14392:14406 hw3 Compiler store_update_eq thm
+R14637:14652 hw3 Compiler store_update_neq thm
+R14637:14652 hw3 Compiler store_update_neq thm
+R14637:14652 hw3 Compiler store_update_neq thm
+R14637:14652 hw3 Compiler store_update_neq thm
+R14670:14681 hw3 Compiler Sl_invariant thm
+R14670:14681 hw3 Compiler Sl_invariant thm
+R14670:14681 hw3 Compiler Sl_invariant thm
+R14670:14681 hw3 Compiler Sl_invariant thm
+R14670:14681 hw3 Compiler Sl_invariant thm
+R14828:14830 hw3 Compiler var abbrev
+binder 14824:14824 <> v:143
+R14840:14843 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14836:14838 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R14835:14835 hw3 <> v:143 var
+R14849:14852 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R14844:14846 hw3 Compiler Reg constr
+R14853:14855 hw3 Compiler Reg constr
+R14860:14860 hw3 <> v:143 var
+R14828:14830 hw3 Compiler var abbrev
+binder 14824:14824 <> v:144
+R14840:14843 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14836:14838 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R14835:14835 hw3 <> v:144 var
+R14849:14852 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R14844:14846 hw3 Compiler Reg constr
+R14853:14855 hw3 Compiler Reg constr
+R14860:14860 hw3 <> v:144 var
+R14972:14980 hw3 Compiler Sl_append thm
+R14972:14980 hw3 Compiler Sl_append thm
+R14972:14980 hw3 Compiler Sl_append thm
+R14997:15008 hw3 Compiler store_update def
+R15018:15029 hw3 Compiler store_lookup def
+R15039:15049 hw3 Compiler symt_update def
+R15135:15142 hw3 Compiler t_update def
+R15146:15151 hw3 Compiler beq_id def
+R15164:15164 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R15185:15192 hw3 Compiler t_update def
+R15222:15225 hw3 Compiler eval def
+R15214:15216 hw3 Compiler Reg constr
+R15205:15211 hw3 Compiler cell_id def
+R15195:15196 hw3 Compiler Sl def
+R15245:15252 hw3 Compiler t_update def
+R15268:15271 hw3 Compiler eval def
+R15258:15263 hw3 Compiler beq_id def
+R15135:15142 hw3 Compiler t_update def
+R15146:15151 hw3 Compiler beq_id def
+R15164:15164 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R15185:15192 hw3 Compiler t_update def
+R15222:15225 hw3 Compiler eval def
+R15214:15216 hw3 Compiler Reg constr
+R15205:15211 hw3 Compiler cell_id def
+R15195:15196 hw3 Compiler Sl def
+R15245:15252 hw3 Compiler t_update def
+R15268:15271 hw3 Compiler eval def
+R15258:15263 hw3 Compiler beq_id def
+R15135:15142 hw3 Compiler t_update def
+R15146:15151 hw3 Compiler beq_id def
+R15164:15164 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R15185:15192 hw3 Compiler t_update def
+R15222:15225 hw3 Compiler eval def
+R15214:15216 hw3 Compiler Reg constr
+R15205:15211 hw3 Compiler cell_id def
+R15195:15196 hw3 Compiler Sl def
+R15245:15252 hw3 Compiler t_update def
+R15268:15271 hw3 Compiler eval def
+R15258:15263 hw3 Compiler beq_id def
+R15135:15142 hw3 Compiler t_update def
+R15146:15151 hw3 Compiler beq_id def
+R15164:15164 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R15185:15192 hw3 Compiler t_update def
+R15222:15225 hw3 Compiler eval def
+R15214:15216 hw3 Compiler Reg constr
+R15205:15211 hw3 Compiler cell_id def
+R15195:15196 hw3 Compiler Sl def
+R15245:15252 hw3 Compiler t_update def
+R15268:15271 hw3 Compiler eval def
+R15258:15263 hw3 Compiler beq_id def
+R15135:15142 hw3 Compiler t_update def
+R15146:15151 hw3 Compiler beq_id def
+R15164:15164 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R15185:15192 hw3 Compiler t_update def
+R15222:15225 hw3 Compiler eval def
+R15214:15216 hw3 Compiler Reg constr
+R15205:15211 hw3 Compiler cell_id def
+R15195:15196 hw3 Compiler Sl def
+R15245:15252 hw3 Compiler t_update def
+R15268:15271 hw3 Compiler eval def
+R15258:15263 hw3 Compiler beq_id def
+R15135:15142 hw3 Compiler t_update def
+R15146:15151 hw3 Compiler beq_id def
+R15164:15164 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R15185:15192 hw3 Compiler t_update def
+R15222:15225 hw3 Compiler eval def
+R15214:15216 hw3 Compiler Reg constr
+R15205:15211 hw3 Compiler cell_id def
+R15195:15196 hw3 Compiler Sl def
+R15245:15252 hw3 Compiler t_update def
+R15268:15271 hw3 Compiler eval def
+R15258:15263 hw3 Compiler beq_id def
+R15323:15330 hw3 Compiler t_update def
+R15351:15356 hw3 Compiler beq_id def
+R15351:15356 hw3 Compiler beq_id def
+R15415:15422 hw3 Compiler t_update def
+R15443:15448 hw3 Compiler beq_id def
+R15443:15448 hw3 Compiler beq_id def
+R15477:15488 Coq.Arith.PeanoNat Nat eqb_refl thm
+R15477:15488 Coq.Arith.PeanoNat Nat eqb_refl thm
+R15477:15488 Coq.Arith.PeanoNat Nat eqb_refl thm
+R15537:15540 hw3 Compiler regt def
+binder 15534:15534 <> m:145
+R15547:15549 hw3 Compiler reg def
+binder 15544:15544 <> r:146
+R15556:15558 hw3 Compiler var abbrev
+binder 15553:15553 <> v:147
+R15569:15572 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15565:15567 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R15562:15562 hw3 <> m:145 var
+R15564:15564 hw3 <> v:147 var
+R15568:15568 hw3 <> r:146 var
+R15574:15577 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R15573:15573 hw3 <> r:146 var
+R15578:15578 hw3 <> m:145 var
+R15580:15580 hw3 <> v:147 var
+R15537:15540 hw3 Compiler regt def
+binder 15534:15534 <> m:148
+R15547:15549 hw3 Compiler reg def
+binder 15544:15544 <> r:149
+R15556:15558 hw3 Compiler var abbrev
+binder 15553:15553 <> v:150
+R15569:15572 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15565:15567 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R15562:15562 hw3 <> m:148 var
+R15564:15564 hw3 <> v:150 var
+R15568:15568 hw3 <> r:149 var
+R15574:15577 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R15573:15573 hw3 <> r:149 var
+R15578:15578 hw3 <> m:148 var
+R15580:15580 hw3 <> v:150 var
+R15615:15615 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15624:15627 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15617:15620 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R15628:15632 Coq.Init.Datatypes <> false constr
+R15615:15615 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15624:15627 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15617:15620 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R15628:15632 Coq.Init.Datatypes <> false constr
+R15644:15654 Coq.Arith.PeanoNat Nat eqb_neq thm
+R15644:15654 Coq.Arith.PeanoNat Nat eqb_neq thm
+R15729:15740 hw3 Compiler Sl_invariant thm
+R15729:15740 hw3 Compiler Sl_invariant thm
+R15729:15740 hw3 Compiler Sl_invariant thm
+R15729:15740 hw3 Compiler Sl_invariant thm
+R15729:15740 hw3 Compiler Sl_invariant thm
+R15864:15871 hw3 Compiler <> mod

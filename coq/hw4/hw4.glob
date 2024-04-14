@@ -1,0 +1,8 @@
+DIGEST 991d70facb61a4797ea63052289a0ec3
+Fhw4
+R15:29 Coq.Arith.Arith <> <> lib
+R47:59 Coq.Bool.Bool <> <> lib
+R77:94 Coq.Strings.String <> <> lib
+R112:114 Coq.micromega.Lia <> <> lib
+R132:148 Coq.Strings.Ascii <> <> lib
+R166:183 Coq.Strings.String <> <> lib
